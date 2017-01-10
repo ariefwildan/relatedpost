@@ -75,7 +75,7 @@ var i = 0;
 
 if(relatedTitles.length>0)
 document.write('<div style="clear: both;"></div>');
-while (i < relatedTitles.length && i < 30 && i<maxresults) {
+while (i < relatedTitles.length && i < 50 && i<maxresults) {
 
 
 document.write('<div class="more"><div class="image" id="related-img">');
