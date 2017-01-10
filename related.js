@@ -19,7 +19,7 @@ thumburl[relatedTitlesNum]=d;} else thumburl[relatedTitlesNum]='https://2.bp.blo
 
 }
 
-if(relatedTitles[relatedTitlesNum].length>35) relatedTitles[relatedTitlesNum]=relatedTitles[relatedTitlesNum].substring(0, 35)+" ";
+if(relatedTitles[relatedTitlesNum].length>50) relatedTitles[relatedTitlesNum]=relatedTitles[relatedTitlesNum].substring(0, 50)+" ";
 for (var k = 0; k < entry.link.length; k++) {
 if (entry.link[k].rel == 'alternate') {
 relatedUrls[relatedTitlesNum] = entry.link[k].href;
