@@ -75,13 +75,13 @@ var i = 0;
 
 if(relatedTitles.length>0)
 document.write('<div style="clear: both;"></div>');
-while (i < relatedTitles.length && i < 50 && i<maxresults) {
+while (i < relatedTitles.length && i < 30 && i<maxresults) {
 
 
 document.write('<div class="more"><div class="image" id="related-img">');
 if(i!=0) document.write(' ');
 else document.write(' ');
-document.write('<a href="' + relatedUrls[r] + '"><img src="'+thumburl[r]+'"/></a></div><div class="titel"><h3><a href="' + relatedUrls[r] + '">'+relatedTitles[r]+'</a></h3></div></div>');
+document.write('<a href="' + relatedUrls[r] + '"><img src="'+thumburl[r]+'"/></a></div><div class="titel"><a href="' + relatedUrls[r] + '">'+relatedTitles[r]+'</a></div></div>');
 
 
 if (r < relatedTitles.length - 1) {
